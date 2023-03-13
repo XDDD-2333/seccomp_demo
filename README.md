@@ -12,3 +12,8 @@ seccomp代表secure computing，是早在2.6.12版本就引入到内核的特性
 + STRICT模式的seccomp [STRICT_doc](./STRICT/strict.md)
 + Seccomp-BPF [Seccomp-BPF_docs](./BPF_FILTER/seccomp_bpf.md)
 + Seccomp-Unotify [Seccomp-Unotify_docs](./seccomp-unotify/seccomp-unotify.md)
+
+
+### 主要参考文档：
++ https://kernel-security.blog.csdn.net/article/details/127710240?spm=1001.2014.3001.5502
++ http://just4coding.com/2021/10/31/core-dump/
