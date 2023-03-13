@@ -1,0 +1,1 @@
+最初，seccomp只允许使用read, write, _exit, sigreturn4个系统调用，调用其他系统调用时，内核会发送SIGKILL信号终止进程。当时seccomp的提出主要是想用于出租空闲的CPU算力。这种模式叫做STRICT模式。它限制过于严格，在实际应用上并没有太多发展。Linus Torvald甚至建议把它从内核中砍掉。
