@@ -13,6 +13,20 @@ seccomp代表secure computing，是早在2.6.12版本就引入到内核的特性
 + Seccomp-BPF [Seccomp-BPF_docs](./BPF_FILTER/seccomp_bpf.md)
 + Seccomp-Unotify [Seccomp-Unotify_docs](./seccomp-unotify/seccomp-unotify.md)
 
+## Demo Code
+
+```shell
+# STRICT模式的seccomp Demo
+./STRICT/strict.c
+
+# Seccomp-BPF模式的seccomp Demo
+./BPF_FILTER/bpf_macro.c    #基于BPF指令和内核定义的宏
+./BPF_FILTER/libseccomp.c   #基于libseccomp库
+
+# Seccomp-Unotify的seccomp Demo
+./seccomp-unotify/supervisor.c 
+./seccomp-unotify/target.c
+```
 
 ### 主要参考文档：
 + https://kernel-security.blog.csdn.net/article/details/127710240?spm=1001.2014.3001.5502
